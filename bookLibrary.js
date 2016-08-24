@@ -127,7 +127,7 @@ function register() {
         sessionStorage.setItem('authToken', userAuth);
         showInfo('User registration successful.');
         showHideMenuLinks();
-        listBooks();
+        //listBooks();
     }
 }
 function listBooks() {
